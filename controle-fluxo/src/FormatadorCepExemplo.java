@@ -2,6 +2,7 @@ public class FormatadorCepExemplo {
     public static void main(String[] args) {
         try {
             String cepFormatado =  formatarCep("23123012");
+            System.out.println(cepFormatado);
         } catch (CapInvalidoException e) {
             e.printStackTrace();
         }
